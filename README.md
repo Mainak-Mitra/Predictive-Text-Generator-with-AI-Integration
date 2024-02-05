@@ -1,4 +1,4 @@
-# Predictive Text Model with ChatGPT Integration
+# Predictive Text Generator with AI Integration
 ## Objective:
 This task is to develop a basic predictive text model and integrate it with ChatGPT to enhance
 text generation capabilities.

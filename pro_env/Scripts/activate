@@ -49,7 +49,7 @@ _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/Scripts:$PATH"
 export PATH
 
-# unset PYTHONHOME if set
+# unset PYTHONHOME if set otherwise
 # this will fail if PYTHONHOME is set to the empty string (which is bad anyway)
 # could use `if (set -u; : $PYTHONHOME) ;` in bash
 if [ -n "${PYTHONHOME:-}" ] ; then
@@ -65,6 +65,6 @@ if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     export VIRTUAL_ENV_PROMPT
 fi
 
-# Call hash to forget past commands. Without forgetting
-# past commands the $PATH changes we made may not be respected
+# Call hash to forget past commands. Without forgetting the
+# past commands the $PATH changes we made may not be respected and Use the command
 hash -r 2> /dev/null
